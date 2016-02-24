@@ -1,0 +1,59 @@
+h1 {
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+td {
+    border: 1px solid grey;
+    margin-left: 20px;
+    border-left: 25%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.announcements {
+    border: none;
+    padding: 5px;
+    font: 20px sans-serif;
+    max-height:  300px;
+    width: 100%;
+    overflow: auto;
+}
+
+#anouncementHeader {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.achievements {
+    list-style-type: none;
+    height: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+#quizzesHeader {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.recentQuizzes {
+    list-style-type: none;
+    right: 0;
+    height: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+.layout {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#left {
+    padding-right: 25%;
+}
